@@ -1,0 +1,48 @@
+## Node.js
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+.env
+pids
+logs
+results
+npm-debug.log
+node_modules
+package-lock.json
+
+## OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+##eleventy
+# Generated files
+package/generated*
+
+# Ignore API documentation
+api-docs/
+
+# Ignore folders from source code editors
+.vscode
+.idea
+
+# Ignore eleventy output when doing manual tests
+_site/
+
+# Ignore test files
+.cache

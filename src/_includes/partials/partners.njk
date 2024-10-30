@@ -1,0 +1,22 @@
+<div class="relative max-w-3xl mx-auto text-center">
+    <div class="inline-flex items-center justify-center">
+        <a href="index.html">
+            {% svg "yawdigital" %}
+        </a>
+    </div>
+    <h2 class="font-inter-tight text-3xl md:text-4xl font-bold text-zinc-900 mb-4">{{ partners.title }}
+    </h2>
+    <p class="text-lg text-zinc-500 mb-8">{{ partners.subtitle }}</p>
+    <div class="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+    </div>
+</div>
+<!-- Clients -->
+<div class="text-center">
+    <ul class="inline-flex flex-wrap items-center justify-center -m-2 [mask-image:linear-gradient(to_right,transparent_8px,_theme(colors.white/.7)_64px,_theme(colors.white)_50%,_theme(colors.white/.7)_calc(100%-64px),_transparent_calc(100%-8px))]">
+        {% for item in partners.items %}
+            <li class="m-2 p-4 relative rounded-lg border border-transparent [background:linear-gradient(theme(colors.zinc.50),theme(colors.zinc.50))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box]">
+                {% svg item.logo %}
+            </li>
+        {% endfor %}                           
+    </ul>
+</div>

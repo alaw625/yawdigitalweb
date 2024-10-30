@@ -1,0 +1,25 @@
+{
+  "title":"Our Experience.",
+  "items": [
+    {
+      "title": "Pan Asian Insurer",
+      "description": "Planned and conducted a rapid 4-week CDP use case discovery and prioritisation to evaluate a Datalake versus a packaged solution approach.",
+      "image": "/_includes/assets/images/testimonial-01.jpg"
+    },
+    {
+      "title": "French Health and Life Insurer",
+      "description": "Led the design and delivery of an Adobe and Salesforce solution in a 24-week period to transform a Corporate Website to a digital sales channel, resulting in an increase in sold policies from less than 1% to 4% through real-time lead assignment and an enhanced “learn and buy” journey.",
+      "image": "/_includes/assets/images/testimonial-02.jpg"
+    },
+    {
+      "title": "Multinational Bank in Singapore and Hong Kong",
+      "description": "Conducted a 12-week discovery and design phase for Standard Chartered Bank aligning over 30 stakeholders on technology and business initiatives. Technologies from Adobe, Salesforce, Pega, and Appsflyer were evaluated.",
+      "image": "/_includes/assets/images/testimonial-03.jpg"
+    },
+    {
+      "title": "A Canadian Life Insurer",
+      "description": "Planned and led the technical delivery of an 11-week Marketo Engage Marketing CRM platform enablement project and successfully ran a pilot campaign.",
+      "image": "/_includes/assets/images/testimonial-04.jpg"
+    }
+  ]
+}

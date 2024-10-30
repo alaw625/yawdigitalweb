@@ -1,0 +1,22 @@
+{
+  "title":"Our Expertise.",
+  "subtitle":"",
+  "items": [
+    {
+      "title": "Digital Architecture",
+      "description": "Design and implement interoperability between systems to better realise value."
+    },
+    {
+      "title": "Customer Technologies",
+      "description": "Advise on CDP, Marketing Automation, and CRM solutions that fit your technology mix."
+    },
+    {
+      "title": "Customer Data",
+      "description": "Discover your data models and flows then integrate systems for omnichannel capabilities."
+    },
+    {
+      "title": "Planning and Delivery",
+      "description": "Flex your team with experts that can advise on the best practices to deliver sustainable solutions."
+    }
+  ]
+}

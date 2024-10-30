@@ -1,0 +1,16 @@
+<div class="relative max-w-3xl mx-auto text-center pb-12 md:pb-20">
+    <h2 class="font-inter-tight text-3xl md:text-4xl font-bold text-zinc-900 mb-4">{{ expertise.title }}</h2>
+    <p class="hidden text-lg text-zinc-500">{{ expertise.subtitle }}</p>
+</div>
+<div class="max-w-xs mx-auto sm:max-w-none grid sm:grid-cols-2 md:grid-cols-2 gap-8 sm:gap-4 lg:gap-8">
+    {% for item in expertise.items %}
+        <article class="flex flex-col border rounded-lg">
+            <div class="grow flex flex-col p-5 pt-6">
+                <div class="flex items-center space-x-3 mb-1">
+                    <h3 class="font-inter-tight font-semibold text-zinc-900">{{ item.title }}</h3>
+                </div>
+                <p class="grow max-w-md text-sm text-zinc-500">{{ item.description }}</p>
+            </div>
+        </article>
+    {% endfor %}
+</div>

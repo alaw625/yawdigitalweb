@@ -1,0 +1,44 @@
+---
+layout: base
+---
+
+<!-- Site header -->
+<header class="absolute top-2 md:top-6 w-full z-30">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    {% svg "yawdigital-large" %}
+  </div>
+</header>
+<!-- Page content -->
+<main class="grow">
+  {% include "partials/hero.njk" %}
+</main>
+<!-- Page wrapper -->    
+<div class="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
+  <section class="relative bg-zinc-50">
+    <div class="py-12 md:py-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">          
+          {% include "partials/whoweare.njk" %}
+        </div>
+    </div>
+  </section>
+  <section>
+    <div class="py-12 md:py-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            {% include "partials/expertise-boxes.njk" %}
+        </div>
+    </div>
+    <section class="bg-zinc-800">
+      <div class="py-12 md:py-20">
+          <div class="py-12 md:py-20">
+              {% include "partials/expertise-slider.njk" %}
+          </div>
+      </div>
+  </section>
+  <section>
+    <div class="py-12 md:py-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            {% include "partials/partners.njk" %}
+        </div>
+    </div>
+</section>
+</div>

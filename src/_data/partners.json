@@ -1,0 +1,15 @@
+{
+  "title":"Partner Technology",
+  "subtitle": "Solutions delivered by our consultants",
+  "items": [
+    {
+      "logo": "adobe"
+    },
+    {
+      "logo": "braze"
+    },
+    {
+      "logo": "microsoft"
+    }
+  ]
+}

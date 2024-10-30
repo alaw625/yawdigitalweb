@@ -1,0 +1,34 @@
+<div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+        <h2 class="font-inter-tight text-3xl md:text-4xl font-bold text-zinc-200">{{ testimonials.title }}</h2>
+    </div>
+</div>
+<div class="max-w-[94rem] mx-auto space-y-6">
+    <!-- Row #1 -->
+    <div
+        x-data="{}"
+        x-init="$nextTick(() => {
+            let ul = $refs.testimonials;
+            ul.insertAdjacentHTML('afterend', ul.outerHTML);
+            ul.nextSibling.setAttribute('aria-hidden', 'true');
+        })"
+        class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_28%,_black_calc(100%-28%),transparent_100%)] group"
+    >
+        <div x-ref="testimonials" class="flex items-start justify-center md:justify-start [&>div]:mx-3 animate-infinite-scroll group-hover:[animation-play-state:paused]">
+            <!-- Items -->
+            {% for item in testimonials.items %}
+                <div class="rounded h-full w-[22rem] border border-transparent [background:linear-gradient(theme(colors.white),theme(colors.white))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box] p-5">
+                    <div class="flex items-center mb-4">
+                        <img class="hidden shrink-0 rounded-full mr-3" src="{{ item.image | url }}" width="44" height="44" alt="Testimonial 01" />
+                        <div>
+                            <h3 class="font-inter-tight font-bold text-zinc-800">{{ item.title }}</h3>
+                        </div>
+                    </div>
+                    <div class="text-zinc-500">
+                        {{ item.description }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>                
+    </div>                   
+</div>
