@@ -2,6 +2,7 @@
   "scripts": {
     "css": "tailwindcss -i ./src/_includes/assets/css/style.css -o ./src/style.css --watch",
     "build": "npx @11ty/eleventy & tailwindcss -i ./src/_includes/assets/css/style.css -o ./_site/style.css --minify",
+    "build-gh-pages": "npx @11ty/eleventy --pathprefix=/yawdigitalweb/ & tailwindcss -i ./src/_includes/assets/css/style.css -o ./_site/style.css --minify",
     "prod": "concurrently \"npx @11ty/eleventy\" \"tailwindcss -i ./src/_includes/assets/css/style.css -o ./_site/style.css --minify\""
   },
   "devDependencies": {
