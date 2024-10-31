@@ -12,11 +12,11 @@
       rel="stylesheet"
     />
     <title>{{site.title}}</title>
-    <link rel="stylesheet" href="{{ '/style.css' | url }}" />    
+    <link rel="stylesheet" href="{{ '/style.css' }}" />    
   </head>
   <body class="font-inter antialiased bg-white text-zinc-900 tracking-tight">
     {{content | safe}}
     {% include "partials/site-footer.njk" %}
-    <script src="{{ '/_includes/assets/js/vendors/alpinejs.min.js' | url }}"></script>
+    <script src="{{ '/_includes/assets/js/vendors/alpinejs.min.js' }}"></script>
   </body>
 </html>

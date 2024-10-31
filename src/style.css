@@ -1516,11 +1516,6 @@ input[type="search"]::-webkit-search-results-decoration {
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
 }
 
-.hover\:text-zinc-300:hover{
-  --tw-text-opacity: 1;
-  color: rgb(212 212 216 / var(--tw-text-opacity));
-}
-
 .hover\:text-zinc-900:hover{
   --tw-text-opacity: 1;
   color: rgb(24 24 27 / var(--tw-text-opacity));
