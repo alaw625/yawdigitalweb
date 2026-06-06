@@ -1,0 +1,55 @@
+{% macro imageSlideshow(images, interval = 1000, height=480, width=221) %}
+<div class="image-slideshow h-[{{ height }}px] w-full">
+    
+    {% for image in images %}
+    <div class="slideshow-slide absolute transition-opacity duration-1000 ease-in-out"
+         data-index="{{ loop.index0 }}">
+      <img src="{{ image.src }}" 
+           alt="{{ image.alt | default('Image ' ~ loop.index) }}"
+           class="h-[{{ height }}px] w-full object-cover rounded-md">
+    </div>
+    {% endfor %}
+
+</div>
+
+<script>
+let currentIndex = 0;
+const slides = document.querySelectorAll('.slideshow-slide');
+const dots = document.querySelectorAll('.slideshow-dot');
+const intervalTime = {{ interval }};
+
+function showSlide(index) {
+  slides.forEach((slide, i) => {
+    slide.style.opacity = i === index ? '1' : '0';
+  });
+  
+  dots.forEach((dot, i) => {
+    dot.classList.toggle('bg-white', i === index);
+    dot.classList.toggle('bg-white/60', i !== index);
+  });
+}
+
+function nextSlide() {
+  currentIndex = (currentIndex + 1) % slides.length;
+  showSlide(currentIndex);
+}
+
+function goToSlide(index) {
+  currentIndex = index;
+  showSlide(currentIndex);
+}
+
+// Auto slideshow
+let slideshowInterval = setInterval(nextSlide, intervalTime);
+
+// Pause on hover
+const slideshowContainer = document.querySelector('.image-slideshow');
+slideshowContainer.addEventListener('mouseenter', () => clearInterval(slideshowInterval));
+slideshowContainer.addEventListener('mouseleave', () => {
+  slideshowInterval = setInterval(nextSlide, intervalTime);
+});
+
+// Initialize
+showSlide(0);
+</script>
+{% endmacro %}

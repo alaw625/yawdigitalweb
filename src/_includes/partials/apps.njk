@@ -1,0 +1,99 @@
+{% from "partials/image-slideshow.njk" import imageSlideshow %}
+<div class="max-w-3xl mx-auto text-center pb-12">
+    <div class="text-center mb-12">
+        <h2 class="text-4xl md:text-5xl font-bold text-zinc-800 mb-3">{{ apps.title }}</h2>
+        <br />
+        <div class="flex justify-center gap-2">
+            <div class="h-16 w-16">
+                <img class="h-full w-full min-w-[64px] shadow-md rounded-md h-16 w-16" src="/_includes/assets/images/autoroute-logo.png"></img>
+            </div>
+            <p class="text-3xl font-medium text-zinc-800 self-center">{{ apps.subtitle }}</p>
+        </div>
+        {% if apps.subtitle %}
+            <p class="text-xl text-zinc-500 mt-4 max-w-2xl mx-auto">{{ apps.description }}</p>
+        {% endif %}
+    </div>
+
+    {% if apps.download and apps.download.length > 0 %}
+        <div class="flex flex-col text-center gap-2">
+            <p class="text-md text-zinc-500">{{ apps.ctamessage }}</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                {% for item in apps.download %}
+                    <a href="{{ item.url }}" 
+                        target="_blank"
+                        class="inline-flex items-center gap-3 bg-black hover:bg-zinc-500 text-white rounded-md font-medium transition-all hover:scale-105">
+                        <img class="w-[147px] h-[45px]" src="/_includes/assets/images/ico_apple_store_en.png"></img>
+                        {% if item.description %}
+                            <span class="text-sm opacity-75">{{ item.description }}</span>
+                        {% endif %}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+
+    <br />
+
+    <div class="mx-auto sm:max-w-none grid sm:grid-cols-1 md:grid-cols-1 gap-4 sm:gap-4 lg:gap-8">
+        <article class="flex flex-col gap-6 lg:flex-row">
+            <div class="grow h-[450px] w-[221px] min-w-[221px] gap-3 self-center lg:self-auto">
+                {{ imageSlideshow(apps.images, 3000, 450, 221) }}
+            </div>
+            <div class="flex flex-col gap-3">
+                {% for feature in apps.features %}
+                    <div class="grow flex flex-row">                    
+                        <div class="grow flex flex-col gap-2">
+                            <h3 class="font-inter-tight text-center font-semibold text-zinc-500">{{ feature.title}}</h3>
+                            <p class="text-md text-left text-zinc-500">{{ feature.description }}</p>
+
+                            {% if feature.bulletpoints and feature.bulletpoints.length > 0 %}
+                                <ul class="list-inside list-disc marker:text-zinc-500">
+                                    {% for point in feature.bulletpoints %}
+                                        <li class="text-left">                                        
+                                            <span class="text-zinc-500">{{ point }}</span>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </article>
+    </div>
+
+    {% if apps.summary %}
+        <div class="rounded-2xl p-8 text-center mb-6">
+            <p class="text-lg italic text-zinc-800">{{ apps.summary }}</p>
+        </div>
+    {% endif %}
+
+    {% if apps.download and apps.download.length > 0 %}
+        <div class="text-center mb-4">
+            <p class="text-md text-zinc-500">{{ apps.ctasummary }}</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                {% for item in apps.download %}
+                    <a href="{{ item.url }}" 
+                        target="_blank"
+                        class="inline-flex items-center gap-3 bg-black hover:bg-gray-900 text-white rounded-md font-medium transition-all hover:scale-105">
+                        <img class="w-[147px] h-[45px]" src="/_includes/assets/images/ico_apple_store_en.png"></img>
+                        {% if item.description %}
+                            <span class="text-sm opacity-75">{{ item.description }}</span>
+                        {% endif %}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+
+    {% if apps.support %}
+    <div class="flex gap-3 justify-center">
+        <a href="{{ apps.support.termsandconditions }}"
+            target="_blank"
+            class="text-md underline underline-offset-2 text-zinc-500 mb-2">Terms and Conditions
+        </a>
+        <a href="mailto:{{ apps.support.email }}"
+            class="text-md underline underline-offset-2 text-zinc-500 mb-2">Send an Email</a>
+    </div>
+    {% endif %}
+</div>

@@ -1,0 +1,49 @@
+{
+    "title": "Our Apps",
+    "name": "AutoRoute",
+    "subtitle": "Explore HK by bus with an AI companion",
+    "description": "AutoRoute is an AI-powered bus route planner that helps you explore Hong Kong with ease. Simply tell AutoRoute where you want to go, and it will generate the best bus routes for you. Whether you're a local or a tourist, AutoRoute makes navigating Hong Kong's extensive bus network simple and efficient.",
+    "features": [
+         {
+            "title": "Your Private AI Travel Companion",
+            "description": "Chat naturally with an intelligent AI companion right in the app. Ask anything:",
+            "bulletpoints": [
+                "Best bus to Victoria Peak?",
+                "How to get to Sai Kung from Central?"
+            ]
+         },
+        {
+            "title": "Complete Privacy & No Tracking",
+            "description": "Private by design: All chats happen only on your device. No location data is ever collected, tracked, or sent to any server. Your conversations and queries never leave your phone. Zero cloud dependency for your personal info."
+        },
+        {
+            "title":"Always Ready — Fully Offline",
+            "description": "All bus data, routes, stops, and core Apple AI intelligence are stored directly in the app. No internet? No problem. Perfect for reliable, stress-free travel.",
+            "bulletpoints": [
+                "Natural language AI chat for bus routes",
+                "Comprehensive coverage of franchised buses, green minibuses, and major operators across Hong Kong Island, Kowloon, New Territories & Lantau",
+                "Offline route search, saved locations, stop finder & journey planning",
+                "Simple, clean interface — no ads, no clutter",
+                "Fast, responsive performance even offline"
+            ]
+        }
+    ],
+    "images": [
+        { "src": "/_includes/assets/images/autoroute-screenshot-4.png", "alt": "AutoRoute app screenshot showing bus route options and AI chat interface" },
+        { "src": "/_includes/assets/images/autoroute-screenshot-5.png", "alt": "AutoRoute app screenshot showing bus route options and AI chat interface" },
+        { "src": "/_includes/assets/images/autoroute-screenshot-6.png", "alt": "AutoRoute app screenshot showing bus route options and AI chat interface" }
+    ],
+    "summary": "Whether you're a daily commuter, a curious explorer, or a first-time visitor wanting to experience authentic Hong Kong, AutoRoute makes every bus journey smarter, more fun, and completely private.",
+    "ctamessage": "Download AutoRoute now and start exploring HK like a local — offline, private, and with AI by your side!",
+    "ctasummary": "Download Now",
+    "download": [
+        {
+            "name": "Apple App Store",
+            "url": "https://google.com"
+        }
+    ],
+    "support": {
+        "termsandconditions": "https://google.com",
+        "email": "https://google.com"
+    }
+}
