@@ -1,8 +1,6 @@
 {% from "partials/image-slideshow.njk" import imageSlideshow %}
 <div class="max-w-3xl mx-auto text-center pb-12">
     <div class="text-center mb-12">
-        <h2 class="text-4xl md:text-5xl font-bold text-zinc-800 mb-3">{{ apps.title }}</h2>
-        <br />
         <div class="flex justify-center gap-2">
             <div class="h-16 w-16">
                 <img class="h-full w-full min-w-[64px] shadow-md rounded-md h-16 w-16" src="/_includes/assets/images/autoroute-logo.png"></img>
@@ -16,7 +14,7 @@
 
     {% if apps.download and apps.download.length > 0 %}
         <div class="flex flex-col text-center gap-2">
-            <p class="text-md text-zinc-500">{{ apps.ctamessage }}</p>
+            <p class="text-base text-zinc-500">{{ apps.ctamessage }}</p>
             <div class="flex flex-wrap justify-center gap-4">
                 {% for item in apps.download %}
                     <a href="{{ item.url }}" 
@@ -39,12 +37,12 @@
             <div class="grow h-[500px] w-auto gap-3 self-center lg:self-auto">
                 <img class="h-full w-auto m-auto" src="/_includes/assets/images/autoroute-screenshot-7.png"></img>
             </div>
-            <div class="flex flex-col gap-3">
+            <div class="flex flex-col gap-3 text-base">
                 {% for feature in apps.features %}
                     <div class="grow flex flex-row">                    
                         <div class="grow flex flex-col gap-2">
                             <h3 class="font-inter-tight text-center font-semibold text-zinc-500">{{ feature.title}}</h3>
-                            <p class="text-md text-left text-zinc-500">{{ feature.description }}</p>
+                            <p class="text-base text-left text-zinc-500">{{ feature.description }}</p>
 
                             {% if feature.bulletpoints and feature.bulletpoints.length > 0 %}
                                 <ul class="list-inside list-disc marker:text-zinc-500">
@@ -70,7 +68,7 @@
 
     {% if apps.download and apps.download.length > 0 %}
         <div class="text-center mb-4">
-            <p class="text-md text-zinc-500">{{ apps.ctasummary }}</p>
+            <p class="text-base text-zinc-500">{{ apps.ctasummary }}</p>
             <div class="flex flex-wrap justify-center gap-4">
                 {% for item in apps.download %}
                     <a href="{{ item.url }}" 
@@ -90,10 +88,10 @@
     <div class="flex gap-3 justify-center">
         <a href="{{ apps.support.termsandconditions }}"
             target="_blank"
-            class="text-md underline underline-offset-2 text-zinc-500 mb-2">Terms and Conditions
+            class="text-base underline underline-offset-2 text-zinc-500 mb-2">Terms and Conditions
         </a>
         <a href="mailto:{{ apps.support.email }}"
-            class="text-md underline underline-offset-2 text-zinc-500 mb-2">Send an Email</a>
+            class="text-base underline underline-offset-2 text-zinc-500 mb-2">Send an Email</a>
     </div>
     {% endif %}
 </div>
