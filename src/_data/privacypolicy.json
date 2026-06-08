@@ -1,5 +1,5 @@
 {
-    "title": "Privacy Policy",
+    "title": "Auto Route: Privacy Policy",
     "updatedDate": "Last Updated: 8th June, 2026",
     "sectionContent": [
         {
@@ -117,7 +117,7 @@
         {
             "title":"9. Changes to This Privacy Policy",
             "content": [
-                    {"type": "paragraph", "html": "We may update this Privacy Policy from time to time. We will notify you of material changes by posting the revised Policy within the App and updating the \"Last Updated\" date. Your continued use of the Service after changes constitutes your acceptance of the updated Policy."}
+                    {"type": "paragraph", "html": "We may update this Privacy Policy from time to time. We will notify you of material changes by posting the revised Policy within the Web Page and updating the \"Last Updated\" date. Your continued use of the Service after changes constitutes your acceptance of the updated Policy."}
             ]
         }
     ],

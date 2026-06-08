@@ -44,8 +44,8 @@
         }
     ],
     "support": {
-        "termsandconditions": "terms-and-conditions",
-        "privacy": "privacy-policy",
+        "termsandconditions": "/terms-and-conditions",
+        "privacy": "/privacy-policy",
         "email": "contact@yawdigital.co"
     }
 }

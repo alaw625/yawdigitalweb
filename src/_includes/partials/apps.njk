@@ -1,6 +1,6 @@
 {% from "partials/image-slideshow.njk" import imageSlideshow %}
-<div class="max-w-3xl mx-auto text-center pb-12">
-    <div class="text-center mb-12">
+<div class="max-w-3xl mx-auto text-left pb-12">
+    <div class="text-left mb-12">
         <div class="flex justify-center gap-2">
             <div class="h-16 w-16">
                 <img class="h-full w-full min-w-[64px] shadow-md rounded-md h-16 w-16" src="/_includes/assets/images/autoroute-logo.png"></img>
@@ -8,18 +8,18 @@
             <p class="text-3xl font-medium text-zinc-800 self-center">{{ apps.subtitle }}</p>
         </div>
         {% if apps.subtitle %}
-            <p class="text-xl text-zinc-500 mt-4 max-w-2xl mx-auto">{{ apps.description }}</p>
+            <p class="text-xl text-zinc-800 mt-4 max-w-2xl mx-auto">{{ apps.description }}</p>
         {% endif %}
     </div>
 
     {% if apps.download and apps.download.length > 0 %}
-        <div class="flex flex-col text-center gap-2">
-            <p class="text-base text-zinc-500">{{ apps.ctamessage }}</p>
+        <div class="flex flex-col text-left gap-2">
+            <p class="text-base text-zinc-800">{{ apps.ctamessage }}</p>
             <div class="flex flex-wrap justify-center gap-4">
                 {% for item in apps.download %}
                     <a href="{{ item.url }}" 
                         target="_blank"
-                        class="inline-flex items-center gap-3 bg-black hover:bg-zinc-500 text-white rounded-md font-medium transition-all hover:scale-105">
+                        class="inline-flex items-center gap-3 bg-black hover:bg-zinc-800 text-white rounded-md font-medium transition-all hover:scale-105">
                         <img class="w-[147px] h-[45px]" src="/_includes/assets/images/ico_apple_store_en.png"></img>
                         {% if item.description %}
                             <span class="text-sm opacity-75">{{ item.description }}</span>
@@ -41,16 +41,16 @@
                 {% for feature in apps.features %}
                     <div class="grow flex flex-row">                    
                         <div class="grow flex flex-col gap-2">
-                            <h3 class="font-inter-tight text-center font-semibold text-zinc-500">{{ feature.title}}</h3>
+                            <h3 class="font-inter-tight text-left font-semibold text-zinc-800">{{ feature.title}}</h3>
                             {% if feature.description %}
-                                <p class="text-base text-left text-zinc-500">{{ feature.description }}</p>
+                                <p class="text-base text-left text-zinc-800">{{ feature.description }}</p>
                             {% endif %}
 
                             {% if feature.bulletpoints and feature.bulletpoints.length > 0 %}
-                                <ul class="list-inside list-disc marker:text-zinc-500">
+                                <ul class="list-inside list-disc marker:text-zinc-800">
                                     {% for point in feature.bulletpoints %}
                                         <li class="text-left">                                        
-                                            <span class="text-zinc-500">{{ point }}</span>
+                                            <span class="text-zinc-800">{{ point }}</span>
                                         </li>
                                     {% endfor %}
                                 </ul>
@@ -63,14 +63,14 @@
     </div>
 
     {% if apps.summary %}
-        <div class="rounded-2xl p-8 text-center mb-6">
+        <div class="rounded-2xl p-8 text-left mb-6">
             <p class="text-lg italic text-zinc-800">{{ apps.summary }}</p>
         </div>
     {% endif %}
 
     {% if apps.download and apps.download.length > 0 %}
         <div class="text-center mb-4">
-            <p class="text-base text-zinc-500">{{ apps.ctasummary }}</p>
+            <p class="text-base text-zinc-800">{{ apps.ctasummary }}</p>
             <div class="flex flex-wrap justify-center gap-4">
                 {% for item in apps.download %}
                     <a href="{{ item.url }}" 
@@ -90,14 +90,14 @@
     <div class="flex gap-3 justify-center">
         <a href="{{ apps.support.termsandconditions }}"
             target="_blank"
-            class="text-base underline underline-offset-2 text-zinc-500 mb-2">Terms and Conditions
+            class="text-base underline underline-offset-2 text-zinc-800 mb-2">Terms and Conditions
         </a>
         <a href="{{ apps.support.privacy }}"
             target="_blank"
-            class="text-base underline underline-offset-2 text-zinc-500 mb-2">Privacy Policy
+            class="text-base underline underline-offset-2 text-zinc-800 mb-2">Privacy Policy
         </a>
         <a href="mailto:{{ apps.support.email }}"
-            class="text-base underline underline-offset-2 text-zinc-500 mb-2">Send an Email</a>
+            class="text-base underline underline-offset-2 text-zinc-800 mb-2">Send an Email</a>
     </div>
     {% endif %}
 </div>
