@@ -1,0 +1,47 @@
+{% macro renderTerms(data) %}
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 text-base text-zinc-800">
+        <p>{{ data.updatedDate }}</p>
+        <br />
+        <h1 class="font-semibold text-5xl">{{ data.title }}</h1>
+        
+        {% for section in data.sectionContent %}
+        <br />
+        <div class="terms-section">
+            {% if section.title %}
+            <h3 class="font-semibold text-xl">{{ section.title }}</h3>
+            {% endif %}
+            
+            <div class="terms-content">
+                {% for item in section.content %}
+                    {% if item.type === "paragraph" %}
+                        <p class="">{{ item.html | safe }}</p>
+                    
+                    {# Bullet List #}
+                    {% elif item.type === "list" %}
+                        <ul class="list-inside list-disc marker:text-zinc-800">
+                            {% for item in item.items %}
+                                <li class="text-left pl-4">
+                                    {{ item | safe }}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+
+        <br />
+        {# Contact Section #}
+        {% if data.contact %}
+        <div class="">
+            <h3 class="font-semibold text-xl">{{ data.contact.title }}</h3>
+            <p>{{ data.contact.message }}</p>
+            <span class="font-semibold">Email</span>: <a class="underline underline-offset-2" href="mailto:{{ data.contact.email }}">{{ data.contact.email }}</a>
+            {% if data.contact.company %}
+            <p><span class="font-semibold">Company</span>: {{ data.contact.company }}</p>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+{% endmacro %}

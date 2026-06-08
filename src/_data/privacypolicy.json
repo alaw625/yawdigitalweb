@@ -1,0 +1,130 @@
+{
+    "title": "Privacy Policy",
+    "updatedDate": "Last Updated: 8th June, 2026",
+    "sectionContent": [
+        {
+            "content": [
+                {"type": "paragraph", "html": "This Privacy Policy explains how <b>YAW Digital Limited</b> (\"we,\" \"us,\" or \"our\") collects, uses, discloses, and safeguards your information when you use the <b>Auto Route</b> mobile application (the \"App\" or \"Service\")."},
+                {"type": "paragraph", "html": "Please read this Privacy Policy carefully. By accessing or using the App, you agree to the practices described in this Policy. If you do not agree, you should not use the Service."},
+                {"type": "paragraph", "html": "This Privacy Policy is incorporated into and forms part of our Terms and Conditions. Capitalized terms used but not defined here have the meanings given in the Terms and Conditions."}
+            ]
+         }, 
+        {
+            "title": "1. Information We Collect",
+            "content": [
+                {"type": "paragraph", "html": "The App is designed to operate with minimal data collection and no external servers or cloud dependencies. All processing occurs locally on your device, using only the phone's built-in services."},
+                {"type": "paragraph", "html": "We may collect the following:"},
+                {"type": "paragraph", "html": "<b>a. Location Information:</b>"},
+                {
+                    "type": "list", 
+                    "items": [
+                        "Precise or approximate location data (e.g., via GPS, Wi-Fi, or cell tower data provided by your device) only when you enable location services in the App.",
+                        "This is used solely to show nearby bus stops, suggest relevant routes, or provide location-based search results.",
+                        "You can grant or revoke location permissions at any time through your device settings. Location data is processed locally on your device and is not sent to us or any third party."
+                    ]
+                },
+                {"type": "paragraph", "html": "<b>b. Device and Usage Information:</b>"},
+                {
+                    "type": "list", 
+                    "items": [
+                        "Technical data automatically provided by your device, such as device type, operating system version, app version, and basic usage statistics (e.g., features accessed or crash reports generated locally)."
+                    ]
+                },
+                {"type": "paragraph", "html": "<br />We do <b>not</b> collect:"},
+                {
+                    "type": "list", 
+                    "items": [
+                        "Names, email addresses, phone numbers, or any other directly identifying personal information (no user accounts are created).",
+                        "Payment information."
+                    ]
+                }
+            ]
+         },
+        {
+            "title": "2. How We Collect Information",
+            "content": [
+                {
+                    "type": "list", 
+                    "items": [
+                        "<b>Directly from you</b>: When you grant permissions (e.g., location access via your device settings).",
+                        "<b>Automatically</b>: Through your device's built-in capabilities and standard app functions while using the App."
+                    ]
+                },
+                {"type": "paragraph", "html": "<br />The App has no external dependencies, servers, or third-party analytics services. All data processing happens locally on your phone."}
+            ]
+        },
+        {
+            "title":"3. How We Use Your Information",
+            "content": [
+                {"type": "paragraph", "html": "We use the collected information only for the following purposes:"},
+                {
+                    "type": "list", 
+                    "items": [
+                        "To enable core App functionality, such as route searches and location-based suggestions, processed entirely on your device.",
+                        "To diagnose and fix technical issues within the App.",
+                        "To comply with legal obligations."
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"4. Sharing of Information",
+            "content": [
+                {"type": "paragraph", "html": "Because the App operates locally on your device with no external servers or dependencies:"},
+                {
+                    "type": "list", 
+                    "items": [
+                        "We do not send your personal information (including location data) to any external servers, companies, or third parties.",
+                        "We do not sell, rent, or share your information with advertising networks or other businesses."
+                    ]
+                },
+                {"type": "paragraph", "html": "<br />We may disclose information only if strictly required by applicable law, court order, or government request."}
+            ]
+        },
+        {
+            "title":"5. Data Security",
+            "content": [
+                {"type": "paragraph", "html": "The App relies on the security features built into your mobile device. We recommend keeping your device's operating system and the App updated to benefit from the latest security protections. However, no system is completely secure, and you use the Service at your own risk."}
+            ]
+        },
+        {
+            "title":"6. Data Retention",
+            "content": [
+                {"type": "paragraph", "html": "Any location or usage data is stored only temporarily on your device as needed for the App's current session or functionality. Once no longer required, it is discarded by the App. You can clear the App's local data or uninstall the App at any time through your device settings."}
+            ]
+        },
+        {
+            "title":"7. Children’s Privacy",
+            "content": [
+                {"type": "paragraph", "html": "The Service is not directed to children under 18 years of age. We do not knowingly collect personal information from children. If we become aware that we have collected data from a child without appropriate consent, we will take steps to delete it."}
+            ]
+        },
+        {
+            "title":"8. Your Rights and Choices",
+            "content": [
+                {"type": "paragraph", "html": "You have control over your information through your device settings:"},
+                {
+                    "type": "list", 
+                    "items": [
+                        "You can enable or disable location services for the App at any time.",
+                        "You can clear the App's local cache or data via your device settings.",
+                        "You can uninstall the App to remove all associated local data."
+                    ]
+                },
+                {"type": "paragraph", "html": "<br />Depending on your jurisdiction, you may have additional rights regarding your personal data. To exercise any rights or if you have questions, contact us using the details below."}
+            ]
+        },
+        {
+            "title":"9. Changes to This Privacy Policy",
+            "content": [
+                    {"type": "paragraph", "html": "We may update this Privacy Policy from time to time. We will notify you of material changes by posting the revised Policy within the App and updating the \"Last Updated\" date. Your continued use of the Service after changes constitutes your acceptance of the updated Policy."}
+            ]
+        }
+    ],
+    "contact": {
+        "title":"10. Contact Us",
+        "message": "If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us at:",
+        "email": "contact@yawdigital.co",
+        "company": "YAW Digital Limited"
+    }
+}

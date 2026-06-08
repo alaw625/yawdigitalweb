@@ -5,26 +5,27 @@
     "description": "AutoRoute is an AI-powered bus route planner that helps you explore Hong Kong with ease. Simply tell AutoRoute where you want to go, and it will generate the best bus routes for you. Whether you're a local or a tourist, AutoRoute makes navigating Hong Kong's extensive bus network simple and efficient.",
     "features": [
          {
-            "title": "Your Private AI Travel Companion",
-            "description": "Chat naturally with an intelligent AI companion right in the app. Ask anything:",
+            "title": "Ask in plain English:",
             "bulletpoints": [
-                "Best bus to Victoria Peak?",
-                "How to get to Sai Kung from Central?"
+                "\"Routes from Central to Tsim Sha Tsui\" and Auto Route will find the matching routes.",
+                "\"Bus 9\" and Auto Route will find all the matchines by the Kowloon Motor Bus, Citybus and Green Mini Buses."
             ]
          },
         {
-            "title": "Complete Privacy & No Tracking",
-            "description": "Private by design: All chats happen only on your device. No location data is ever collected, tracked, or sent to any server. Your conversations and queries never leave your phone. Zero cloud dependency for your personal info."
+            "title": "Helps you navigate around Hong Kong:",
+            "bulletpoints": [
+                "See the nearest stops around you, so you will never feel lost.",
+                "Save your favourite locations such as your work, hotel or home, to easily find a route back.",
+                "Routes are organised by day, operating hours, and direction, giving you a simple view on route availability."
+            ]
         },
         {
-            "title":"Always Ready — Fully Offline",
-            "description": "All bus data, routes, stops, and core Apple AI intelligence are stored directly in the app. No internet? No problem. Perfect for reliable, stress-free travel.",
+            "title":"Designed with privacy and reliability:",
             "bulletpoints": [
-                "Natural language AI chat for bus routes",
-                "Comprehensive coverage of franchised buses, green minibuses, and major operators across Hong Kong Island, Kowloon, New Territories & Lantau",
-                "Offline route search, saved locations, stop finder & journey planning",
-                "Simple, clean interface — no ads, no clutter",
-                "Fast, responsive performance even offline"
+                "All data is stored within the App, no internet is required, navigate around Hong Kong without worrying about slow internet access or low data.",
+                "AI is completely on the device, your requests are never shared to a third party.",
+                "Darkmode helps conserve your battery, letting you explore Hong Kong for longer.",
+                "All this in a tiny 60MB package, saving you space for more photos"
             ]
         }
     ],
@@ -43,7 +44,8 @@
         }
     ],
     "support": {
-        "termsandconditions": "https://google.com",
-        "email": "https://google.com"
+        "termsandconditions": "terms-and-conditions",
+        "privacy": "privacy-policy",
+        "email": "contact@yawdigital.co"
     }
 }

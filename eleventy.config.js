@@ -22,6 +22,9 @@ module.exports = async function (eleventyConfig) {
 
   return {
     passthroughFileCopy: true,
+    markdownTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
     pathPrefix: "/yawdigitalweb/",
     dir: {
       input: "src",

@@ -1,0 +1,148 @@
+{
+    "title": "Terms and Conditions",
+    "updatedDate": "Last Updated: 8th June, 2026",
+    "sectionContent": [
+         {
+            "title": "1. Introduction and Acceptance of Terms",
+            "content": [
+                {"type": "paragraph", "html": "Welcome to <b>Auto Route</b> (the \"Service\" or \"App\"), operated by <b>YAW Digital Limited</b> (\"we,\" \"us,\" or \"our\"). <b>Auto Route</b> is a mobile application that aggregates and displays publicly available bus route, schedule, and related transportation information sourced exclusively from official government-published data sources to help users plan bus trips."},
+                {"type": "paragraph", "html": "By accessing or using <b>Auto Route</b>, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions (\"Terms\"). If you do not agree to these Terms, you must not access or use the Service."},
+                {"type": "paragraph", "html": "We may update these Terms from time to time. We will notify you of material changes by posting the revised Terms within the App and updating the \"Last Updated\" date. Your continued use of the Service after such changes constitutes your acceptance of the new Terms. Please review these Terms periodically."},
+                {"type": "paragraph", "html": "These Terms incorporate our Privacy Policy by reference."}
+            ]
+         },
+        {
+            "title": "2. Eligibility",
+            "content": [
+                {"type": "paragraph", "html": "You must be at least 18 years old or the age of majority in your jurisdiction to use the Service. By using the Service, you represent and warrant that you meet this age requirement and have the legal capacity to enter into these Terms."}
+            ]
+        },
+        {
+            "title":"3. Description of Services",
+            "content": [
+                {"type": "paragraph", "html": "<b>Auto Route</b> allows users to search for bus routes, view timetables, and plan trips based on government-published transportation data."},
+                {"type": "paragraph", "html": "The Service does not sell tickets, process payments, provide booking functions, display fare information, or act as a booking agent in any way. All bookings and transactions, if any, must be made directly with the relevant transport operators."},
+                {"type": "paragraph", "html": "The Service is provided for informational purposes only and does not constitute professional travel advice. You should not rely solely on the Service for time-sensitive or safety-critical decisions."},
+                {"type": "paragraph", "html": "We may modify, suspend, or discontinue any feature or part of the Service at any time without liability."}
+            ]
+        },
+        {
+            "title":"4. Data Sources, Accuracy, and Disclaimers",
+            "content": [
+                {"type": "paragraph", "html": "All transportation data (including but not limited to routes, schedules, stops, and service status) is obtained from official government and public-sector sources. We do not generate or independently verify this data."},
+                {"type": "paragraph", "html": "<b>YOU ACKNOWLEDGE AND AGREE THAT</b>"},
+                {
+                    "type": "list", 
+                    "items": [
+                        "We provide the Service and all data \"AS IS\" and \"AS AVAILABLE\" without any warranties of any kind, express or implied.",
+                        "We do not guarantee the accuracy, completeness, timeliness, reliability, or availability of any data or information on the Service.",
+                        "Bus schedules, routes, delays, cancellations, or service changes may occur at any time without notice.",
+                        "You are solely responsible for verifying all critical travel information directly with the relevant government authorities or transport operators before making any travel decisions.",
+                        "We are not responsible for any missed connections, travel disruptions, costs, losses, or damages resulting from reliance on the Service."
+                    ]
+                },
+                {"type": "paragraph", "html": "To the maximum extent permitted by law, we disclaim all warranties, including but not limited to implied warranties of merchantability, fitness for a particular purpose, title, and non-infringement."}
+            ]
+        },
+        {
+            "title":"5. Location Services",
+            "content": [
+                {"type": "paragraph", "html": "The <b>Auto Route</b> mobile application may request access to your device's location services (e.g., GPS) to provide features such as nearby stops, real-time route suggestions, or location-based search results."},
+                {"type": "paragraph", "html": "You may grant or deny location permissions through your device settings. If you grant permission, we may collect and use your location data only as described in our Privacy Policy. We do not share precise location data with third parties except as necessary to provide the Service or as required by law."},
+                {"type": "paragraph", "html": "You acknowledge that location data may not be accurate and that use of location services occurs at your own risk."}
+            ]
+        },
+        {
+            "title":"6. User Conduct and Responsibilities",
+            "content": [
+                {"type": "paragraph", "html": "You agree to use the Service only for lawful, personal, and non-commercial purposes. You are fully responsible for your travel arrangements, safety, and compliance with all applicable transport rules and laws."},
+                {"type": "paragraph", "html": "Prohibited conduct includes:"},
+                {
+                    "type": "list", 
+                    "items": [
+                        "Scraping, crawling, or automated extraction of data from the Service.",
+                        "Reverse engineering, decompiling, or attempting to access the underlying code.",
+                        "Interfering with the Service's operation or security.",
+                        "Using the Service to transmit harmful code, spam, or illegal content.",
+                        "Providing false information.",
+                        "Any commercial use or resale of Service content without our prior written consent."
+                    ]
+                },
+                {"type": "paragraph", "html": "You agree that you are solely responsible for any consequences arising from your use of the Service or any travel decisions made based on it."}
+            ]
+        },
+        {
+            "title":"7. Intellectual Property",
+            "content": [
+                {"type": "paragraph", "html": "The Service, including its design, software, logos, graphics, text, and other original content (excluding government data), is owned by <b>YAW Digital Limited</b> or its licensors and protected by intellectual property laws."},
+                {"type": "paragraph", "html": "We grant you a limited, personal, non-exclusive, non-transferable, revocable license to access and use the Service for its intended purpose. You may not copy, modify, distribute, sell, or create derivative works from the Service without our express written permission."},
+                {"type": "paragraph", "html": "Government-published data remains subject to its original open data licenses or terms. You agree to comply with any attribution or usage requirements of those sources."}
+            ]
+        },
+        {
+            "title":"8. Limitation of Liability",
+            "content": [
+                {"type": "paragraph", "html": "To the fullest extent permitted by applicable law, <b>YAW Digital Limited</b>, its affiliates, officers, directors, employees, and agents shall not be liable for any indirect, incidental, special, consequential, punitive, or exemplary damages, including but not limited to loss of profits, data, goodwill, travel costs, missed connections, or any damages arising from reliance on inaccurate or unavailable data."},
+                {"type": "paragraph", "html": "Our total liability to you for any claim shall not exceed the amount you paid us (if any) for use of the Service."},
+                {"type": "paragraph", "html": "These limitations apply even if we have been advised of the possibility of such damages."}
+            ]
+        },
+        {
+            "title":"9. Indemnification",
+            "content": [
+                {"type": "paragraph", "html": "You agree to indemnify, defend, and hold harmless <b>YAW Digital Limited</b>, its affiliates, officers, directors, employees, and agents from and against any and all claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising out of or in any way connected with:"},
+                {
+                    "type": "list", 
+                    "items": [
+                        "Your access to or use of the Service;",
+                        "Your violation of these Terms;",
+                        "Your travel arrangements or decisions made using the Service; or",
+                        "Any infringement of third-party rights by you."
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"10. Privacy and Data Protection",
+            "content": [
+                {"type": "paragraph", "html": "Your privacy is important to us. Please review our Privacy Policy, which explains how we collect, use, and disclose information, including location data when you enable location services. By using the Service, you consent to the practices described in the Privacy Policy."},
+                {"type": "paragraph", "html": "We grant you a limited, personal, non-exclusive, non-transferable, revocable license to access and use the Service for its intended purpose. You may not copy, modify, distribute, sell, or create derivative works from the Service without our express written permission."},
+                {"type": "paragraph", "html": "Government-published data remains subject to its original open data licenses or terms. You agree to comply with any attribution or usage requirements of those sources."}
+            ]
+        },
+        {
+            "title":"11. Termination",
+            "content": [
+                {"type": "paragraph", "html": "We may suspend or terminate your access to the Service at any time, with or without cause or notice, including for violation of these Terms. Upon termination, your right to use the Service ceases immediately. Sections that by their nature should survive (including Limitation of Liability, Indemnification, Intellectual Property, and Governing Law) will continue in effect."},
+                {"type": "paragraph", "html": "You may stop using the Service at any time."}
+            ]
+        },
+        {
+            "title":"12. Governing Law and Dispute Resolution",
+            "content": [
+                {"type": "paragraph", "html": "These Terms shall be governed by and construed in accordance with the laws of Hong Kong Special Administrative Region of the People's Republic of China (\"HKSAR\"), without regard to conflict of laws principles."},
+                {"type": "paragraph", "html": "Any disputes arising out of or relating to these Terms or the Service shall be resolved exclusively in the courts located in Hong Kong and courts of the Hong Kong Special Administrative Region. You agree to submit to the personal jurisdiction of such courts."}
+            ]
+        },
+        {
+            "title":"13. General Provisions",
+            "content": [
+                {
+                    "type": "list", 
+                    "items": [
+                        "<b>Severability</b>: If any provision of these Terms is held invalid, the remainder shall continue in full force.",
+                        "<b>No Waiver</b>: Our failure to enforce any right does not constitute a waiver.",
+                        "<b>Entire Agreement</b>: These Terms (together with the Privacy Policy) constitute the entire agreement between you and us.",
+                        "<b>Force Majeure</b>: We are not liable for delays or failures caused by events beyond our reasonable control, including government data source outages, natural disasters, or regulatory changes.",
+                        "<b>Assignment</b>: You may not assign these Terms without our consent. We may assign them freely."
+                    ]
+                }
+            ]
+        }
+    ],
+    "contact": {
+        "title":"Contact",
+        "message": "For questions about these Terms, please contact us at:",
+        "email": "contact@yawdigital.co"
+    }
+}

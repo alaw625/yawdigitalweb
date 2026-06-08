@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="{{ '/style.css' }}" />    
   </head>
   <body class="font-inter antialiased bg-white text-zinc-900 tracking-tight">
-    {{content | safe}}
+    {% block content %}
+      {{content | safe}}
+    {% endblock %}
     {% include "partials/site-footer.njk" %}
     <script src="{{ '/_includes/assets/js/vendors/alpinejs.min.js' }}"></script>
   </body>

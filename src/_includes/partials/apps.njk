@@ -42,7 +42,9 @@
                     <div class="grow flex flex-row">                    
                         <div class="grow flex flex-col gap-2">
                             <h3 class="font-inter-tight text-center font-semibold text-zinc-500">{{ feature.title}}</h3>
-                            <p class="text-base text-left text-zinc-500">{{ feature.description }}</p>
+                            {% if feature.description %}
+                                <p class="text-base text-left text-zinc-500">{{ feature.description }}</p>
+                            {% endif %}
 
                             {% if feature.bulletpoints and feature.bulletpoints.length > 0 %}
                                 <ul class="list-inside list-disc marker:text-zinc-500">
@@ -89,6 +91,10 @@
         <a href="{{ apps.support.termsandconditions }}"
             target="_blank"
             class="text-base underline underline-offset-2 text-zinc-500 mb-2">Terms and Conditions
+        </a>
+        <a href="{{ apps.support.privacy }}"
+            target="_blank"
+            class="text-base underline underline-offset-2 text-zinc-500 mb-2">Privacy Policy
         </a>
         <a href="mailto:{{ apps.support.email }}"
             class="text-base underline underline-offset-2 text-zinc-500 mb-2">Send an Email</a>
