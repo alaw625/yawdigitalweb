@@ -30,11 +30,11 @@
         }
     ],
     "images": [
-        { "src": "/_includes/assets/images/autoroute-screenshot-4.png", "alt": "AutoRoute app screenshot showing bus route options and AI chat interface" },
-        { "src": "/_includes/assets/images/autoroute-screenshot-5.png", "alt": "AutoRoute app screenshot showing bus route options and AI chat interface" },
-        { "src": "/_includes/assets/images/autoroute-screenshot-6.png", "alt": "AutoRoute app screenshot showing bus route options and AI chat interface" }
+        { "src": "/_includes/assets/images/autoroute-screenshot-4.png", "alt": "Auto Route app screenshot showing bus route options and AI chat interface" },
+        { "src": "/_includes/assets/images/autoroute-screenshot-5.png", "alt": "Auto Route app screenshot showing bus route options and AI chat interface" },
+        { "src": "/_includes/assets/images/autoroute-screenshot-6.png", "alt": "Auto Route app screenshot showing bus route options and AI chat interface" }
     ],
-    "summary": "Whether you're a daily commuter, a curious explorer, or a first-time visitor wanting to experience authentic Hong Kong, AutoRoute makes every bus journey smarter, more fun, and completely private.",
+    "summary": "Whether you're a daily commuter, a curious explorer, or a first-time visitor wanting to experience authentic Hong Kong, Auto Route makes every bus journey smarter, more fun, and completely private.",
     "ctamessage": "Download Auto Route now and start exploring HK like a local — offline, private, and with AI by your side!",
     "ctasummary": "Download Now",
     "download": [
