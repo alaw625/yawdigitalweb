@@ -1509,6 +1509,12 @@ input[type="search"]::-webkit-search-results-decoration {
   letter-spacing: -0.017em;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 1.415;
+  letter-spacing: -0.017em;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1836,6 +1842,12 @@ input[type="search"]::-webkit-search-results-decoration {
   .md\:text-5xl{
     font-size: 3.25rem;
     line-height: 1.2;
+    letter-spacing: -0.017em;
+  }
+
+  .md\:text-3xl{
+    font-size: 2rem;
+    line-height: 1.3125;
     letter-spacing: -0.017em;
   }
 }
