@@ -3,7 +3,8 @@ const fs = require("fs");
 module.exports = async function (eleventyConfig) {
   const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-  
+  eleventyConfig.addPassthroughCopy("CNAME");
+  eleventyConfig.addPassthroughCopy(".nojekyll"); 
   //enable shortcode to simplfy adding svg to the templates e.g. {% svg "myfile" %}
   let getSvgContent = function (file) {
     let relativeFilePath = `./src/svg/${file}.svg`;
