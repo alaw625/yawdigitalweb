@@ -26,7 +26,6 @@ module.exports = async function (eleventyConfig) {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
-    pathPrefix: "/yawdigitalweb/",
     dir: {
       input: "src",
       includes: "_includes",
