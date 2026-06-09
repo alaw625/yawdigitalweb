@@ -30,7 +30,16 @@
             "title":"4. Data Sources, Accuracy, and Disclaimers",
             "content": [
                 {"type": "paragraph", "html": "The transport information, routes, schedules, and related data provided in this app are sourced from official third-party providers, primarily the Government's open data portals (<b>DATA.GOV.HK</b>) and the respective public transport operators."},
-                {"type": "paragraph", "html": "We acknowledge that the underlying transport data is the intellectual property of the Government and the relevant transport operators, including but not limited to Kowloon Motor Bus Company Limited, Citybus Limited, Long Win Bus Company Limited, New Lantao Bus Company Limited, MTR Corporation Limited, and other public transport service providers. We use this data in accordance with the applicable open data licenses and terms of use."},
+                {"type": "paragraph", "html": "We acknowledge and attribute the following data sources:"},
+                {
+                    "type": "list", 
+                    "items": [
+                        "The Government's open data portal (<b>DATA.GOV.HK</b>);",
+                        "The Hong Kong Transport Department;",
+                        "The Common Spatial Data Infrastructure (CSDI) Portal provided by the Development Bureau of the Government;",
+                        "The data provided by the relevant public transport operators, including but not limited to Kowloon Motor Bus Company Limited, Citybus Limited, Long Win Bus Company Limited, New Lantao Bus Company Limited, MTR Corporation Limited, and other public transport service providers."
+                    ]
+                },
                 {"type": "paragraph", "html": "<b>YOU ACKNOWLEDGE AND AGREE THAT</b>"},
                 {
                     "type": "list", 
