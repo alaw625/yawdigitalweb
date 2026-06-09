@@ -5,7 +5,7 @@
          {
             "title": "1. Introduction and Acceptance of Terms",
             "content": [
-                {"type": "paragraph", "html": "Welcome to <b>Auto Route</b> (the \"Service\" or \"App\"), operated by <b>YAW Digital Limited</b> (\"we,\" \"us,\" or \"our\"). <b>Auto Route</b> is a mobile application that aggregates and displays publicly available bus route, schedule, and related transportation information sourced exclusively from official government-published data sources to help users plan bus trips."},
+                {"type": "paragraph", "html": "Welcome to <b>Auto Route</b> (the \"Service\" or \"App\"), operated by <b>YAW Digital Limited</b> (\"we,\" \"us,\" or \"our\"). <b>Auto Route</b> is a mobile application that aggregates and displays publicly available bus route, schedule, and related transportation information sourced exclusively from official data sources published by the Government of the Hong Kong Special Administrative Region (\"the Government\") and other relevant public transport operators to help users plan bus trips."},
                 {"type": "paragraph", "html": "By accessing or using <b>Auto Route</b>, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions (\"Terms\"). If you do not agree to these Terms, you must not access or use the Service."},
                 {"type": "paragraph", "html": "We may update these Terms from time to time. We will notify you of material changes by posting the revised Terms within the Web Page and updating the \"Last Updated\" date. Your continued use of the Service after such changes constitutes your acceptance of the new Terms. Please review these Terms periodically."},
                 {"type": "paragraph", "html": "These Terms incorporate our Privacy Policy by reference."}
@@ -20,7 +20,7 @@
         {
             "title":"3. Description of Services",
             "content": [
-                {"type": "paragraph", "html": "<b>Auto Route</b> allows users to search for bus routes, view timetables, and plan trips based on government-published transportation data."},
+                {"type": "paragraph", "html": "<b>Auto Route</b> allows users to search for bus routes, view timetables, and plan trips based on transportation data published by the Government and other relevant public transport operators."},
                 {"type": "paragraph", "html": "The Service does not sell tickets, process payments, provide booking functions, display fare information, or act as a booking agent in any way. All bookings and transactions, if any, must be made directly with the relevant transport operators."},
                 {"type": "paragraph", "html": "The Service is provided for informational purposes only and does not constitute professional travel advice. You should not rely solely on the Service for time-sensitive or safety-critical decisions."},
                 {"type": "paragraph", "html": "We may modify, suspend, or discontinue any feature or part of the Service at any time without liability."}
@@ -29,7 +29,8 @@
         {
             "title":"4. Data Sources, Accuracy, and Disclaimers",
             "content": [
-                {"type": "paragraph", "html": "All transportation data (including but not limited to routes, schedules, stops, and service status) is obtained from official government and public-sector sources. We do not generate or independently verify this data."},
+                {"type": "paragraph", "html": "The transport information, routes, schedules, and related data provided in this app are sourced from official third-party providers, primarily the Government of the Hong Kong Special Administrative Region’s (\"the Government\") open data portals (<b>DATA.GOV.HK</b>) and the respective public transport operators."},
+                {"type": "paragraph", "html": "We acknowledge that the underlying transport data is the intellectual property of the Government and the relevant transport operators, including but not limited to Kowloon Motor Bus Company (KMB), Citybus Limited, MTR Corporation Limited, and other public transport service providers. We use this data in accordance with the applicable open data licenses and terms of use."},
                 {"type": "paragraph", "html": "<b>YOU ACKNOWLEDGE AND AGREE THAT</b>"},
                 {
                     "type": "list", 
