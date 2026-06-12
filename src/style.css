@@ -1242,18 +1242,14 @@ input[type="search"]::-webkit-search-results-decoration {
   gap: 2rem;
 }
 
-.gap-x-4{
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
-}
-
 .gap-x-3{
   -moz-column-gap: 0.75rem;
        column-gap: 0.75rem;
 }
 
-.gap-y-0\.5{
-  row-gap: 0.125rem;
+.gap-x-4{
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]){
@@ -1468,6 +1464,12 @@ input[type="search"]::-webkit-search-results-decoration {
   font-family: Inter Tight, sans-serif;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 1.415;
+  letter-spacing: -0.017em;
+}
+
 .text-3xl{
   font-size: 2rem;
   line-height: 1.3125;
@@ -1477,12 +1479,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .text-4xl{
   font-size: 2.5rem;
   line-height: 1.25;
-  letter-spacing: -0.017em;
-}
-
-.text-5xl{
-  font-size: 3.25rem;
-  line-height: 1.2;
   letter-spacing: -0.017em;
 }
 
@@ -1506,12 +1502,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.5;
-  letter-spacing: -0.017em;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 1.415;
   letter-spacing: -0.017em;
 }
 
@@ -1833,6 +1823,12 @@ input[type="search"]::-webkit-search-results-decoration {
     padding-top: 10rem;
   }
 
+  .md\:text-3xl{
+    font-size: 2rem;
+    line-height: 1.3125;
+    letter-spacing: -0.017em;
+  }
+
   .md\:text-4xl{
     font-size: 2.5rem;
     line-height: 1.25;
@@ -1842,12 +1838,6 @@ input[type="search"]::-webkit-search-results-decoration {
   .md\:text-5xl{
     font-size: 3.25rem;
     line-height: 1.2;
-    letter-spacing: -0.017em;
-  }
-
-  .md\:text-3xl{
-    font-size: 2rem;
-    line-height: 1.3125;
     letter-spacing: -0.017em;
   }
 }
